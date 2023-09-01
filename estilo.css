@@ -1,0 +1,136 @@
+html, body{
+    background-color: rgb(237, 255, 237);
+    margin: 0%;
+}
+
+header {
+    background-color: rgb(1, 61, 41);
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo {
+    width: 60px;
+    position: absolute;
+    top: 2px;
+    margin-left: 2%;
+}
+
+#menu {
+    float: right;
+    margin-right: 2%;
+    list-style: none;
+}
+
+#box {
+    float: left;
+    padding: 10px 5px 10px 5px;
+}
+
+#box:hover {
+    background-color: rgb(21, 117, 53);
+}
+
+.acao {
+    background-color: rgba(233, 243, 209, 0.685);
+    color: rgb(58, 95, 2);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+#topo { 
+    color: rgb(58, 95, 2);
+    text-align: center;
+    font-size:large;
+    font-weight: 500;
+    margin: 0%;
+    padding: 5px 10px 5px 10px;
+    border: 1px rgb(38, 51, 27) solid;
+}
+
+#section {
+    background-color: rgb(233, 248, 190);
+    padding: 10px;
+    float: left;
+}
+
+#coluna {
+    float: left;
+    position: relative;
+    padding: 0 5%;
+    width: 40%;
+}
+
+#projeto {
+    text-align: center;
+    margin: 0;
+}
+#selecao {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.text {
+    color: #079e46cc;
+    margin: 5px;
+    text-align: center;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+#inferior {
+    text-align: justify;
+    padding: 0 15%;
+    margin-top: 20%;
+}
+
+.icones {
+    float: left;
+    padding: 0 5%;
+    width: 10%;
+}
+
+.material-icons:hover {
+    background-color: rgb(21, 117, 53);
+}
+
+.apresentacao {
+    text-align: justify;
+    width: 100%;
+}
+
+#rodape {
+    text-align: justify;
+}
+
+footer {
+    background-color: rgb(233, 248, 190);
+    float: left;
+    width: 100%;
+}
+
+@media all and (max-width: 768px) {
+    #menu {
+        visibility: hidden;
+    }
+    .icones, #coluna, .apresentacao {
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #logo {
+        width: 10%;
+        position: relative;
+        text-align: center;
+        transform: translate(+420%);
+        padding: 0px;
+        margin: 0px;
+    }
+}
